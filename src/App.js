@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
 import Welcome from './pages/Welcome.js'
+import PlanLayout from './pages/Layouts/PlanLayout';
 
 
 function App() {
   return (
+    <PlanLayout>
       <Welcome/>
+      </PlanLayout>
   );
 }
 
