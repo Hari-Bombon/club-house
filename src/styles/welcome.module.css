@@ -21,9 +21,29 @@
     overflow: auto;
 }
 
+.Welcomein{
+    margin-bottom: 2em;
+    color: #c0c0c0;
+    font-style: 1em;
+    font-weight: 400;
+}
+
 .WelcomeInfo p{
     margin-bottom: 2em;
     color: var(--textColor);
     font-style: 1em;
     font-weight: 400;
+}
+
+.actionBtn{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionBtn > a:last-child{
+    color: var(--btnBgColor);
+    font-size: 0.8em;
 }
